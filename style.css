@@ -1,0 +1,26 @@
+/* Custom styles for the Bootstrap Store */
+
+body {
+    padding-top: none; /* To prevent content from overlapping with navbar */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav > li > a {
+    padding: 15px 20px;
+}
+
+.dropdown-menu > li > a {
+    padding: 10px 20px;
+}
+
+.dropdown-menu > li.divider {
+    margin: 10px 0;
+    border-color: #ddd;
+}
+footer{
+    text-align: center;
+}
